@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/classicAlertDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classic AlertDialog" />
+
+        <Button
+            android:id="@+id/customAlertDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Custom AlertDialog" />
+
+        <Button
+            android:id="@+id/singleChoiceAlertDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Single Choice Dialog" />
+
+        <Button
+            android:id="@+id/radioButtonsAlertDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Radio Buttons Dialog" />
+
+        <Button
+            android:id="@+id/multiChoiceAlertDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Multi Choice Dialog" />
+
+        <Button
+            android:id="@+id/titlelessButtonlessAlertDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Titleless Buttonless Dialog" />
+
+        <Button
+            android:id="@+id/customLegacyDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Custom Dialog (legacy)" />
+
+        <Button
+            android:id="@+id/dialogFragmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="DialogFragment" />
+
+        <Button
+            android:id="@+id/alertDialogInDialogFragmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="AlertDialog in DialogFragment" />
+
+        <Button
+            android:id="@+id/fullscreenDialogFragmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="FullScreen DialogFragment" />
+
+        <Button
+            android:id="@+id/transparentAnimatedDialogFragmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Transparent Animated Dialog" />
+
+        <Button
+            android:id="@+id/datePickerDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="DatePickerDialog" />
+
+        <Button
+            android:id="@+id/datePickerDialogSpinnerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="DatePickerDialog (Spinner)" />
+
+        <Button
+            android:id="@+id/datePickerDialogCalendarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="DatePickerDialog (Calendar)" />
+
+        <Button
+            android:id="@+id/timePickerDialog24hButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TimePickerDialog (24h)" />
+
+        <Button
+            android:id="@+id/timePickerDialog12hButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="TimePickerDialog (12h)" />
+
+        <Button
+            android:id="@+id/dateRangePickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Material DateRangePicker" />
+
+        <Button
+            android:id="@+id/materialDatePickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Material DatePicker" />
+
+        <Button
+            android:id="@+id/materialTimePickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="MaterialTimePicker" />
+
+        <Button
+            android:id="@+id/materialAlertDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="MaterialAlertDialog" />
+
+        <Button
+            android:id="@+id/materialSingleChoiceDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Material SingleChoice" />
+
+        <Button
+            android:id="@+id/materialMultiChoiceDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Material MultiChoice" />
+
+        <Button
+            android:id="@+id/materialListDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Material List" />
+
+        <Button
+            android:id="@+id/materialCustomContentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Material Custom Content" />
+
+        <Button
+            android:id="@+id/bottomSheetDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="BottomSheetDialog" />
+
+        <Button
+            android:id="@+id/bottomSheetDialogFragmentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="BottomSheetDialogFragment" />
+
+        <Button
+            android:id="@+id/modalNonDismissibleBottomSheetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Modal Non-Dismissible BottomSheet" />
+
+        <Button
+            android:id="@+id/persistentBottomSheetActivityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Persistent BottomSheet" />
+
+        <Button
+            android:id="@+id/popupWindowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PopupWindow" />
+
+        <Button
+            android:id="@+id/popupMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PopupMenu" />
+
+        <Button
+            android:id="@+id/dropdownMenuActivityButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="DropdownMenu" />
+
+        <Button
+            android:id="@+id/toastButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Toast" />
+
+        <Button
+            android:id="@+id/customToastButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Custom Toast" />
+
+        <Button
+            android:id="@+id/snackbarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Snackbar" />
+
+        <Button
+            android:id="@+id/snackbarWithActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Snackbar with Action" />
+
+        <Button
+            android:id="@+id/progressDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="ProgressDialog" />
+
+        <Button
+            android:id="@+id/circularProgressDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Circular Progress in Dialog" />
+
+        <Button
+            android:id="@+id/horizontalProgressDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Horizontal Progress in Dialog" />
+
+        <Button
+            android:id="@+id/customAnimatedDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Custom Animated Dialog" />
+
+        <Button
+            android:id="@+id/spotlightDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Spotlight Dialog" />
+
+        <Button
+            android:id="@+id/topRoundedDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Top-Rounded Dialog" />
+
+    </LinearLayout>
+</ScrollView>
